@@ -1,0 +1,19 @@
+{
+    "name": "teste_deliverymuch",
+    "version": "1.0.0",
+    "description": "Desafio de processo seletivo à empresa Delivery Much.",
+    "main": "index.js",
+    "scripts": {
+        "qa": "set ENV=qa && jest --config=jest.config.json"
+    },
+    "keywords": [],
+    "author": "Rafael Tupinelli",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.4",
+        "chai-json-schema": "^1.5.1",
+        "jest": "^27.0.6",
+        "supertest": "^6.1.4",
+        "jest-html-reporters": "^2.1.6"
+    }
+}
